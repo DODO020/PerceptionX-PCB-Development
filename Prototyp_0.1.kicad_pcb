@@ -396,15 +396,15 @@
 			(uuid "76eaa7e0-07d3-48ff-9a0b-5a37e8be06c6")
 		)
 		(embedded_fonts no)
-		(model "${EXTERMODELS}/XT60PW FEMALE.STEP"
+		(model "${KIPRJMOD}/3D_Models/XT60PW FEMALE.STEP"
 			(offset
-				(xyz 3.6 15.15 4)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -180 -0)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -20593,7 +20593,7 @@
 			(uuid "73f45e46-1fe2-42a1-863e-bbbfe8704750")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/3dmodels/ESP32-S3-WROOM-1U.STEP"
+		(model "${KIPRJMOD}/3D_Models/ESP32-S3-WROOM-1U.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
