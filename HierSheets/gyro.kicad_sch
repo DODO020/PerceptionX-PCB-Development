@@ -5,34 +5,52 @@
 	(uuid "62a6a298-7eca-4f16-8459-ec7477b24ee7")
 	(paper "A4")
 	(lib_symbols)
-	(wire
-		(pts
-			(xy 143.51 107.95) (xy 143.51 92.71)
-		)
+	(bus_entry
+		(at 0.0763 14.0462)
+		(size 2.54 -2.54)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1cb279e6-f145-4254-af0e-3f3b3a1aef92")
+		(uuid "4f80f287-2fd5-44fa-91b4-4e2e98dde0de")
+	)
+	(bus_entry
+		(at 0.0763 16.5862)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c10d7f2d-94cf-4814-a3c0-ca36b392fdf8")
 	)
 	(wire
 		(pts
-			(xy 140.97 107.95) (xy 143.51 107.95)
+			(xy 3.8863 0.0762) (xy 3.8863 12.7762)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "90794287-0114-4d74-aeee-5fe7e37be4e6")
+		(uuid "360d2664-7c72-411e-8b74-cccba4e5e7ad")
 	)
 	(wire
 		(pts
-			(xy 143.51 92.71) (xy 148.59 92.71)
+			(xy 2.6163 14.0462) (xy 3.8863 12.7762)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d1dbd221-ac27-4bd7-92ff-cd040c52ad11")
+		(uuid "39560faa-68a0-4cb2-9a18-6718e1f9e97c")
+	)
+	(wire
+		(pts
+			(xy 2.6163 0.0762) (xy 2.6163 11.5062)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3870bc5-17ba-41dd-90c3-e81b1650e7ad")
 	)
 )

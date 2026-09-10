@@ -15,8 +15,8 @@
 		)
 		(uuid "fed6f2b0-acee-4160-b62c-7a76df222dea")
 	)
-	(hierarchical_label "12V"
-		(shape passive)
+	(hierarchical_label "IN12V"
+		(shape input)
 		(at 195.58 123.19 0)
 		(effects
 			(font
@@ -26,8 +26,8 @@
 		)
 		(uuid "064defe1-76fc-4854-bca6-ce4ee44562c5")
 	)
-	(hierarchical_label "5V"
-		(shape passive)
+	(hierarchical_label "OUT5V"
+		(shape output)
 		(at 118.11 123.19 180)
 		(effects
 			(font

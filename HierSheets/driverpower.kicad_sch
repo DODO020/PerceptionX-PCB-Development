@@ -4,100 +4,388 @@
 	(generator_version "10.0")
 	(uuid "f9e167f5-e5d6-41dc-9b3c-27c8d0923a57")
 	(paper "A4")
-	(lib_symbols)
-	(junction
-		(at 99.06 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "36bd2bb1-9823-4704-a089-baa2be622a86")
+	(lib_symbols
+		(symbol "Diode:1.5SMCxxCA"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1.5SMCxxCA"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SMC"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/88303/15smc.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "1500W bidirectional TVS diode, SMC (DO-201AB)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "transient voltage suppressor TRANSZORB®"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "D?SMC*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "1.5SMCxxCA_0_1"
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy 0 0) (xy -2.54 1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1.5SMCxxCA_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GNDPWR"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GNDPWR"
+				(at 0 -3.302 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GNDPWR_0_1"
+				(polyline
+					(pts
+						(xy -1.016 -1.27) (xy -1.27 -2.032) (xy -1.27 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -1.27) (xy -0.762 -2.032) (xy -0.762 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy -0.254 -2.032) (xy -0.254 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 -1.27) (xy 0.254 -2.032) (xy 0.254 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.27) (xy -1.016 -1.27) (xy -1.016 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.27) (xy 0.762 -2.032) (xy 0.762 -2.032) (xy 0.762 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GNDPWR_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
-		(at 99.06 87.63)
+		(at 101.6 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7956c85e-3776-459f-b97e-c8f1de19895b")
+		(uuid "7b4cc69a-3224-4bbf-9574-886d6a9852d3")
 	)
 	(junction
-		(at 90.17 87.63)
+		(at 123.19 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8effc169-3ea1-45ab-b372-4427b96bde69")
-	)
-	(junction
-		(at 74.93 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d9f6a39b-c91f-43d4-bfaa-153f298916fd")
-	)
-	(junction
-		(at 124.46 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f30bac16-aff9-456c-a96d-ed53a5955783")
+		(uuid "cfc67436-34cd-4dd9-90c2-9e7cd99c5aff")
 	)
 	(wire
 		(pts
-			(xy 72.39 93.98) (xy 74.93 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "037e572f-831a-4bcb-981f-14ff621d101d")
-	)
-	(wire
-		(pts
-			(xy 54.61 101.6) (xy 62.23 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "046cc0e4-4f19-4f70-8557-0ee97c93e312")
-	)
-	(wire
-		(pts
-			(xy 90.17 87.63) (xy 95.25 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0752a93e-24b7-4ff2-a425-71cc0c887f48")
-	)
-	(wire
-		(pts
-			(xy 116.84 95.25) (xy 116.84 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18a720e4-8496-465b-93e2-18a4b9bd20d4")
-	)
-	(wire
-		(pts
-			(xy 129.54 87.63) (xy 129.54 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a4249d4-48bd-4eb3-8f91-a59ff3fbfa53")
-	)
-	(wire
-		(pts
-			(xy 54.61 88.9) (xy 54.61 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d70cfa0-d45e-44f9-9fe2-b9ce3afd37f3")
-	)
-	(wire
-		(pts
-			(xy 118.11 154.94) (xy 208.28 154.94)
+			(xy 91.44 133.35) (xy 101.6 133.35)
 		)
 		(stroke
 			(width 0)
@@ -107,227 +395,57 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 87.63) (xy 99.06 87.63)
+			(xy 101.6 133.35) (xy 123.19 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2ee2f4d4-0941-4e0a-b6ca-c0af4c2e9fae")
+		(uuid "58650e99-faac-4c19-b66c-9b6e0e976c9d")
 	)
 	(wire
 		(pts
-			(xy 119.38 87.63) (xy 124.46 87.63)
+			(xy 101.6 138.43) (xy 101.6 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "32511a42-7dad-4cea-a549-dd0450a8c294")
+		(uuid "671ad64c-f747-41a2-93d9-1f185eba6110")
 	)
 	(wire
 		(pts
-			(xy 124.46 87.63) (xy 129.54 87.63)
+			(xy 123.19 133.35) (xy 181.61 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3d6ae411-e5eb-4858-bfaf-1c01523e5bf9")
+		(uuid "8075a9f5-db82-4a28-abce-efea6fd37e89")
 	)
 	(wire
 		(pts
-			(xy 58.42 95.25) (xy 62.23 95.25)
+			(xy 101.6 151.13) (xy 101.6 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "47cc0ecb-b070-4f56-8060-2d272070af61")
+		(uuid "8ed9d107-8386-4c13-beda-29b741352199")
 	)
 	(wire
 		(pts
-			(xy 107.95 102.87) (xy 116.84 102.87)
+			(xy 123.19 133.35) (xy 123.19 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4dbb503a-0871-4445-b84e-17a2bd7c0f2a")
+		(uuid "d31de475-f3b8-4153-94a1-e8c0aa983967")
 	)
-	(wire
-		(pts
-			(xy 116.84 87.63) (xy 107.95 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5211b158-f8b6-4696-9533-77597dd63d80")
-	)
-	(wire
-		(pts
-			(xy 90.17 87.63) (xy 90.17 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68df2af4-7f9a-4fea-92c0-4cfb8911a6b9")
-	)
-	(wire
-		(pts
-			(xy 83.82 87.63) (xy 90.17 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7423370d-ae64-474f-88c9-2ec97d63338e")
-	)
-	(wire
-		(pts
-			(xy 99.06 93.98) (xy 99.06 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7704def6-8eb2-44fd-9bef-da0c0a8c7ab9")
-	)
-	(wire
-		(pts
-			(xy 99.06 93.98) (xy 104.14 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ce649cc-e29d-4837-a125-39995f904f3d")
-	)
-	(wire
-		(pts
-			(xy 107.95 95.25) (xy 116.84 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92c9e414-8b64-48a0-9efc-477b44999cbe")
-	)
-	(wire
-		(pts
-			(xy 124.46 87.63) (xy 124.46 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a19d0bf-e9e2-450d-85e0-3a6efde12ade")
-	)
-	(wire
-		(pts
-			(xy 74.93 93.98) (xy 77.47 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac26bde7-e92c-4f86-9c82-a39fc0928504")
-	)
-	(wire
-		(pts
-			(xy 67.31 93.98) (xy 67.31 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5054d14-5b27-4123-9d54-0ab85e91283e")
-	)
-	(wire
-		(pts
-			(xy 99.06 100.33) (xy 104.14 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd7c1e27-d6a3-41d5-b7cb-ad3be8180ad5")
-	)
-	(wire
-		(pts
-			(xy 119.38 86.36) (xy 119.38 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bfda321c-df47-4a5d-8b41-2a56aa458b91")
-	)
-	(wire
-		(pts
-			(xy 99.06 87.63) (xy 99.06 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cbb66b86-8b07-406a-9a97-7fbb6ef1e0a0")
-	)
-	(wire
-		(pts
-			(xy 107.95 87.63) (xy 107.95 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cce974d0-5233-45b7-8fd1-6d0e6e763b1f")
-	)
-	(wire
-		(pts
-			(xy 62.23 101.6) (xy 62.23 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9b70178-437b-4e70-a355-d8a7b9624385")
-	)
-	(wire
-		(pts
-			(xy 74.93 93.98) (xy 74.93 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dcf6cfcf-844a-40cf-b035-a13721e0efa2")
-	)
-	(wire
-		(pts
-			(xy 62.23 88.9) (xy 54.61 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eaa655bf-7b4d-48da-bc00-2be677dfa923")
-	)
-	(wire
-		(pts
-			(xy 99.06 87.63) (xy 105.41 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f26a015a-d8ac-42d0-9b45-5ac64850d275")
-	)
-	(hierarchical_label "OUTPUT"
+	(hierarchical_label "OUT"
 		(shape output)
-		(at 118.11 154.94 180)
+		(at 91.44 133.35 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -338,7 +456,7 @@
 	)
 	(hierarchical_label "RandomAhhData"
 		(shape bidirectional)
-		(at 121.92 149.86 180)
+		(at 95.25 128.27 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -347,9 +465,9 @@
 		)
 		(uuid "8d01d77e-1458-4db1-94f0-0c178e390ced")
 	)
-	(hierarchical_label "INPUT"
+	(hierarchical_label "IN"
 		(shape input)
-		(at 208.28 154.94 0)
+		(at 181.61 133.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -357,5 +475,165 @@
 			(justify left)
 		)
 		(uuid "9522c678-ddea-4548-992a-8acf5ecb623a")
+	)
+	(symbol
+		(lib_id "Diode:1.5SMCxxCA")
+		(at 101.6 142.24 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4990127d-9666-4644-ae04-9808bda4b0ab")
+		(property "Reference" "D1"
+			(at 104.14 140.9699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1.5SMCxxCA"
+			(at 104.14 143.5099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMC"
+			(at 106.68 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/88303/15smc.pdf"
+			(at 101.6 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1500W bidirectional TVS diode, SMC (DO-201AB)"
+			(at 101.6 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ae1482fa-ac69-4a69-81f3-256a4618bedb")
+		)
+		(pin "1"
+			(uuid "d8b572c6-a91c-46d1-979b-7070803509bb")
+		)
+		(instances
+			(project "Prototyp_0.1"
+				(path "/607d4431-9cfb-431e-bb0d-e8da578e6786/38f20ae7-a2c1-4edb-b66b-4d7ed02f4c65"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 101.6 151.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b2d1cab-3b8a-482b-a302-78cbcf5ca1dd")
+		(property "Reference" "#PWR034"
+			(at 101.6 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 101.473 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 101.6 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "85ab9303-d90d-4068-a290-0d10e8cb2de1")
+		)
+		(instances
+			(project "Prototyp_0.1"
+				(path "/607d4431-9cfb-431e-bb0d-e8da578e6786/38f20ae7-a2c1-4edb-b66b-4d7ed02f4c65"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
 	)
 )
