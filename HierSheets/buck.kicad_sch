@@ -5,9 +5,35 @@
 	(uuid "39784c4c-75ad-4779-9f70-78046734c938")
 	(paper "A4")
 	(lib_symbols)
+	(junction
+		(at 121.92 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ee1f1f0-e426-48a4-bdb2-41480cee949a")
+	)
 	(wire
 		(pts
-			(xy 118.11 123.19) (xy 195.58 123.19)
+			(xy 121.92 123.19) (xy 121.92 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29e4213c-6606-4321-8690-e61f5d3bb0e9")
+	)
+	(wire
+		(pts
+			(xy 121.92 123.19) (xy 195.58 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df65161b-c197-432a-81f9-06e586f6c61c")
+	)
+	(wire
+		(pts
+			(xy 118.11 123.19) (xy 121.92 123.19)
 		)
 		(stroke
 			(width 0)
@@ -37,7 +63,7 @@
 		)
 		(uuid "5171e633-bd86-4667-9895-bbbfed757525")
 	)
-	(hierarchical_label "Status"
+	(hierarchical_label "StatusLED"
 		(shape output)
 		(at 120.65 119.38 180)
 		(effects

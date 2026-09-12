@@ -482,7 +482,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -685,7 +685,7 @@
         "uuid": "607d4431-9cfb-431e-bb0d-e8da578e6786"
       }
     ],
-    "used_designators": "LiDAR_port1,AI_Port_(Raspberry)1-2,#PWR1-36,BATTERY1,PC_port1,P1,AI_port(Raspberry)1,Motor1-8,C1-8,D1,U1-13,J1,RaspberryPower1,Superteams_port1,R1-21",
+    "used_designators": "LiDAR_port1,AI_Port_(Raspberry)1-2,#PWR1-39,#PWR41,#PWR43,BATTERY1,PC_port1,P1,AI_port(Raspberry)1,Motor1-8,C1-8,D1-4,U1-13,U15,J1,RaspberryPower1,Superteams_port1,R1-21",
     "variants": []
   },
   "sheets": [
@@ -736,6 +736,10 @@
     [
       "4bc1ed43-94f0-493f-ad58-ce67a304739a",
       "Gyro"
+    ],
+    [
+      "13f8df48-936f-4e77-b00c-1cf58e669057",
+      "eFuse"
     ]
   ],
   "text_variables": {},
