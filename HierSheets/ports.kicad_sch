@@ -1698,12 +1698,6 @@
 		(color 0 0 0 0)
 		(uuid "57c13d38-83fb-4fd7-8aaa-41150c3b0058")
 	)
-	(junction
-		(at 74.93 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ac5fdf13-f5b1-496d-9f0b-6dc870cd01e1")
-	)
 	(wire
 		(pts
 			(xy 87.63 50.8) (xy 87.63 55.88)
@@ -1753,16 +1747,6 @@
 			(type default)
 		)
 		(uuid "4e615415-060c-473f-9266-d67744fa72e0")
-	)
-	(wire
-		(pts
-			(xy 60.96 41.91) (xy 74.93 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4fd65c62-ac4a-4005-99e0-a39cb705c28c")
 	)
 	(wire
 		(pts
@@ -1823,6 +1807,54 @@
 			(type default)
 		)
 		(uuid "db895565-b00d-4139-b68d-981a22b9013f")
+	)
+	(global_label "5V"
+		(shape passive)
+		(at 149.86 41.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "10ec32a5-edef-423d-acb3-82c50b59a1d8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 154.032 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "5V_RP"
+		(shape passive)
+		(at 60.96 41.91 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "40e67a53-e176-4291-8bed-7754ac7add92")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 60.96 34.2304 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
 	(global_label "12V"
 		(shape input)
@@ -1915,7 +1947,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "100483cf-a7e8-4294-b21b-009a29275899")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR041"
 			(at 129.54 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -1975,7 +2007,7 @@
 		(instances
 			(project "Prototyp_0.1"
 				(path "/607d4431-9cfb-431e-bb0d-e8da578e6786/d0038c3a-7d45-43eb-bf8d-d839cf120d14"
-					(reference "#PWR043")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -2167,7 +2199,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "695d54b3-e117-4537-97cb-cef3bb4ba085")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR042"
 			(at 152.4 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -2228,7 +2260,7 @@
 		(instances
 			(project "Prototyp_0.1"
 				(path "/607d4431-9cfb-431e-bb0d-e8da578e6786/d0038c3a-7d45-43eb-bf8d-d839cf120d14"
-					(reference "#PWR041")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)

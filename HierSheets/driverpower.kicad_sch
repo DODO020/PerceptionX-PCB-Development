@@ -488,7 +488,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4990127d-9666-4644-ae04-9808bda4b0ab")
-		(property "Reference" "D1"
+		(property "Reference" "D5"
 			(at 104.14 140.9699 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -552,7 +552,7 @@
 		(instances
 			(project "Prototyp_0.1"
 				(path "/607d4431-9cfb-431e-bb0d-e8da578e6786/38f20ae7-a2c1-4edb-b66b-4d7ed02f4c65"
-					(reference "D1")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -570,7 +570,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b2d1cab-3b8a-482b-a302-78cbcf5ca1dd")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR039"
 			(at 101.6 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -630,7 +630,7 @@
 		(instances
 			(project "Prototyp_0.1"
 				(path "/607d4431-9cfb-431e-bb0d-e8da578e6786/38f20ae7-a2c1-4edb-b66b-4d7ed02f4c65"
-					(reference "#PWR034")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
