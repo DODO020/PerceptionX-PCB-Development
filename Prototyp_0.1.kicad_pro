@@ -642,7 +642,7 @@
       "dashed_lines_dash_length_ratio": 12.0,
       "dashed_lines_gap_length_ratio": 3.0,
       "default_line_thickness": 6.0,
-      "default_text_size": 50.0,
+      "default_text_size": 25.0,
       "field_names": [],
       "hop_over_size_choice": 0,
       "intersheets_ref_own_page": false,
@@ -685,7 +685,7 @@
         "uuid": "607d4431-9cfb-431e-bb0d-e8da578e6786"
       }
     ],
-    "used_designators": "LiDAR_port1,AI_Port_(Raspberry)1-2,#PWR1-39,#PWR41,#PWR43,BATTERY1,PC_port1,P1,AI_port(Raspberry)1,Motor1-8,C1-8,D1-4,U1-13,U15,J1,RaspberryPower1,Superteams_port1,R1-21",
+    "used_designators": "SW1,LiDAR_port1,AI_Port_(Raspberry)1-2,#PWR1-39,#PWR41,#PWR43-45,BATTERY1,PC_port1,P1,AI_port(Raspberry)1,Motor1-8,C1-8,C11-16,D1-5,U1-13,U15,J1,RaspberryPower1,Superteams_port1,R1-27",
     "variants": []
   },
   "sheets": [
