@@ -685,7 +685,7 @@
         "uuid": "607d4431-9cfb-431e-bb0d-e8da578e6786"
       }
     ],
-    "used_designators": "P1,SW1-2,AI_Port_(Raspberry)1-2,LiDAR_port1,#PWR1-65,BATTERY1,RaspberryPower1,PC_port1,AI_port(Raspberry)1,Motor1-8,C1-33,D1-16,Superteams_port1,U1-20,J1,R1-56,Q1-9,L1-2",
+    "used_designators": "P1,SW1-3,AI_Port_(Raspberry)1-2,LiDAR_port1,#PWR1-66,BATTERY1,RaspberryPower1,PC_port1,AI_port(Raspberry)1,Motor1-8,C1-34,D1-17,Superteams_port1,U1-20,J1,R1-57,Q1-9,L1-2",
     "variants": []
   },
   "sheets": [
